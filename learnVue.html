@@ -7,7 +7,7 @@
   <body>
     <div id="app">
       <h1>{{ count }}</h1>
-      <button v-on:click="addCount()">Click Me!</button>
+      <button v-on:click="addCount(2, $event)">Click Me!</button>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -21,8 +21,9 @@
           };
         },
         methods: {
-          addCount() {
-            this.count++;
+          addCount(num = 1, event) {
+            console.log(event);
+            this.count += num;
           },
         },
       };
