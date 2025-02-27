@@ -6,7 +6,8 @@
   </head>
   <body>
     <div id="app">
-      <h1>{{ getTitle() }}</h1>
+      <h1>{{ count }}</h1>
+      <button v-on:click="addCount()">Click Me!</button>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -16,15 +17,12 @@
       const App = {
         data() {
           return {
-            title: "hello today",
+            count: 0,
           };
         },
         methods: {
-          getT() {
-            return this.title;
-          },
-          getTitle() {
-            return this.getT();
+          addCount() {
+            this.count++;
           },
         },
       };
