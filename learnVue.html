@@ -6,12 +6,7 @@
   </head>
   <body>
     <div id="app">
-      <h1>{{ title }}</h1>
-
-      Hi {{ name }}
-
-      <img :src="src" alt="" />
-      <img v-bind:src="src" alt="" />
+      <h1>{{ getTitle() }}</h1>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -22,9 +17,15 @@
         data() {
           return {
             title: "hello today",
-            name: "tikrack",
-            src: "https://automation.vuejs.org/images/chrome_frameworks_fund.avif",
           };
+        },
+        methods: {
+          getT() {
+            return this.title;
+          },
+          getTitle() {
+            return this.getT();
+          },
         },
       };
 
