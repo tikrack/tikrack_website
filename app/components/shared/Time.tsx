@@ -21,6 +21,21 @@ const Time = () => {
     }
     setMinute(minutes);
     setSeconds(seconds);
+
+    let timeVal = setInterval(() => {
+      fetch("https://api.keybit.ir/time/").then((r) => {
+        r.json().then((rs) => {
+          // @ts-ignore
+          setHour(rs.time12.hour.en);
+          setMinute(rs.time12.minute.en);
+          setSeconds(rs.time12.second.en);
+        });
+      });
+    });
+
+    return () => {
+      clearInterval(timeVal);
+    };
   }, []);
 
   return (
