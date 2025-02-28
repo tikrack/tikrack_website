@@ -1,5 +1,11 @@
+import Logo from "~/components/shared/Logo";
+
 const Header = () => {
-  return <></>;
+  return (
+    <>
+      <Logo className={"!w-[50px]"} />
+    </>
+  );
 };
 
 export default Header;

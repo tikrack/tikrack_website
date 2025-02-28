@@ -8,7 +8,7 @@ const meta = () => {
 const Index = () => {
   return (
     <>
-      <Container>
+      <Container className={"pt-[15px]"}>
         <Header />
       </Container>
     </>

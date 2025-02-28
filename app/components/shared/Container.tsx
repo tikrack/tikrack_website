@@ -2,7 +2,7 @@ import React from "react";
 
 const Container: React.FC<{
   children?: React.ReactNode;
-  className?: React.ClassAttributes<string>;
+  className?: string;
 }> = ({ children, className }) => {
   return (
     <>
