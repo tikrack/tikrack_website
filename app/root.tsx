@@ -7,13 +7,11 @@ import {
   ScrollRestoration,
 } from "react-router";
 
-// @ts-ignore
 import type { Route } from "./+types/root";
 import "./styles/app.css";
 import React from "react";
 
 export const links: Route.LinksFunction = () => [
-  // @ts-ignore
   { rel: "icon", href: "/images/favicon.svg" },
 ];
 
