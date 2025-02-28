@@ -12,7 +12,10 @@ import type { Route } from "./+types/root";
 import "./styles/app.css";
 import React from "react";
 
-export const links: Route.LinksFunction = () => [];
+export const links: Route.LinksFunction = () => [
+  // @ts-ignore
+  { rel: "icon", href: "/images/favicon.svg" },
+];
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
