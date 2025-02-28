@@ -5,12 +5,7 @@ const Nav = () => {
     <>
       <ul>
         <li>
-          <NavLink
-            to={"/"}
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
+          <NavLink to={"/"} className={"text-[17px]"}>
             Home
           </NavLink>
         </li>

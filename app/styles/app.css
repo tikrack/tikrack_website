@@ -38,6 +38,5 @@
         border-left-color: black !important;
     }
 
-    a:is(:link,:visited).active {
-    }
+    /*a:is(:link,:visited).active {}*/
 }
