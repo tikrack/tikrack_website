@@ -14,10 +14,10 @@ const Time = () => {
 
     if (hours > 12) {
       setHour(hours - 12);
-      setAmPm("PM");
+      setAmPm("pm");
     } else {
       setHour(hours);
-      setAmPm("AM");
+      setAmPm("am");
     }
     setMinute(minutes);
     setSeconds(seconds);
@@ -25,13 +25,12 @@ const Time = () => {
 
   return (
     <>
-      <h1>{hour}</h1>
-      <span>-</span>
-      <h1>{minute}</h1>
-      <span>-</span>
-      <h1>{seconds}</h1>
-      <span>-</span>
-      <h1>{ampm}</h1>
+      <div className={"flex flex-col text-[14px]"}>
+        <span className={"text-gray-400 text-[15px]"}>Tehran, Iran</span>
+        <span
+          className={"font-bold"}
+        >{`${hour}:${minute}:${seconds} ${ampm}`}</span>
+      </div>
     </>
   );
 };
