@@ -40,8 +40,8 @@ const Time = () => {
 
   return (
     <>
-      <div className={"flex flex-col text-[14px]"}>
-        <span className={"text-gray-400 text-[15px]"}>Tehran, Iran</span>
+      <div className={"flex flex-col text-[15px]"}>
+        <span className={"text-gray-400 text-[16px]"}>Tehran, Iran</span>
         <span
           className={"font-bold"}
         >{`${hour}:${minute}:${seconds} ${ampm}`}</span>

@@ -1,6 +1,8 @@
 import Logo from "~/components/shared/Logo";
 import Nav from "~/components/shared/Nav";
 import Time from "~/components/shared/Time";
+import React from "react";
+import Add from "~/components/shared/Add";
 
 const Header = () => {
   return (
@@ -12,8 +14,9 @@ const Header = () => {
           <Nav />
         </div>
         {/*End*/}
-        <div className={"flex justify-end items-center basis-1/2"}>
+        <div className={"flex justify-end items-center basis-1/2 gap-[20px]"}>
           <Time />
+          <Add />
         </div>
       </header>
     </>
