@@ -5,7 +5,7 @@ const meta = () => {
   ];
 };
 
-const Home = () => {
+const Index = () => {
   return (
     <>
       <h1>hello brother</h1>
@@ -16,4 +16,4 @@ const Home = () => {
 };
 
 export { meta };
-export default Home;
+export default Index;

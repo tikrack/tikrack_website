@@ -9,7 +9,7 @@ import {
 
 // @ts-ignore
 import type { Route } from "./+types/root";
-import "./app.css";
+import "./styles/app.css";
 import React from "react";
 
 export const links: Route.LinksFunction = () => [];
