@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f736edaa-2a92-44d3-924c-767a83708101" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/index/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/index/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/index/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/shared/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
       <recent name="C:\Users\Tikrack\Desktop\tikrack_website\app\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tikrack\Desktop\tikrack_website\app\components\shared" />
       <recent name="C:\Users\Tikrack\Desktop\tikrack_website\app\styles" />
     </key>
   </component>
