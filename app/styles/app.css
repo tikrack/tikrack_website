@@ -1,1 +1,19 @@
-@import "../../node_modules/tailwindcss";
+@import "tailwindcss";
+
+@layer base {
+    #nprogress .bar {
+        background-color: black !important;
+        height: 2px !important;
+        box-shadow: 0 5px 15px -3px black !important;
+    }
+
+    #nprogress .peg {
+        box-shadow: 0 0 10px black,
+        0 0 5px black !important;
+    }
+
+    #nprogress .spinner-icon {
+        border-top-color: black !important;
+        border-left-color: black !important;
+    }
+}
