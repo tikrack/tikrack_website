@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @layer base {
+    * {
+        user-select: none;
+    }
+
     #nprogress .bar {
         background-color: black !important;
         height: 2px !important;
