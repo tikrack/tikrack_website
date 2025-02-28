@@ -20,4 +20,8 @@
         border-top-color: black !important;
         border-left-color: black !important;
     }
+
+    a:is(:link,:visited).active {
+        @apply bg-black/10 py-1.5 px-2 rounded-[10px]
+    }
 }
