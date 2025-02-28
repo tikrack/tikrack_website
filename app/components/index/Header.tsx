@@ -7,7 +7,7 @@ const Header = () => {
       <header className={"w-full flex justify-between items-center"}>
         {/*Right*/}
         <div className={"flex justify-start items-center basis-1/2 gap-[30px]"}>
-          <Logo className={"!w-[50px]"} />
+          <Logo className={"!w-[45px]"} />
           <Nav />
         </div>
         {/*Left*/}

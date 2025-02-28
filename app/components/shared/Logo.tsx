@@ -6,7 +6,7 @@ const Logo: React.FC<{ className?: string }> = ({ className }) => {
     <>
       <Link to={"/"}>
         <img
-          src="/images/logo.svg"
+          src="/images/shap_logo.png"
           alt="tikrack logo"
           loading={"lazy"}
           className={`w-[100px] ${className}`}
