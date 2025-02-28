@@ -1,12 +1,8 @@
+import { useEffect } from "react";
+
 const Time = () => {
-  return (
-    <>
-      e
-      <br />
-      ri
-      <br />
-    </>
-  );
+  useEffect(() => {}, []);
+  return <></>;
 };
 
 export default Time;
