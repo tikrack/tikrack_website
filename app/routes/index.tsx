@@ -1,4 +1,5 @@
 import Container from "~/components/shared/Container";
+import Header from "~/components/index/Header";
 
 const meta = () => {
   return [{ title: "Tikrack" }, { name: "description", content: "" }];
@@ -7,7 +8,9 @@ const meta = () => {
 const Index = () => {
   return (
     <>
-      <Container></Container>
+      <Container>
+        <Header />
+      </Container>
     </>
   );
 };
