@@ -1,8 +1,25 @@
 @import "tailwindcss";
 
 @layer base {
+    @font-face {
+        font-family: 'quick-sans';
+        font-weight: 300;
+        src: url("/fonts/Quicksand-Light.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'quick-sans';
+        font-weight: 400;
+        src: url("/fonts/Quicksand-Medium.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'quick-sans';
+        font-weight: 700;
+        src: url("/fonts/Quicksand-Bold.ttf") format("truetype");
+    }
+
     * {
         user-select: none;
+        font-family: 'quick-sans', sans-serif;
     }
 
     #nprogress .bar {
@@ -22,6 +39,5 @@
     }
 
     a:is(:link,:visited).active {
-        @apply bg-black/10 py-1.5 px-2 rounded-[10px]
     }
 }

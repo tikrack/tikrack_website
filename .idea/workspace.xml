@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f736edaa-2a92-44d3-924c-767a83708101" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Quicksand_Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Quicksand_Book.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Quicksand_Light.otf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
