@@ -1,7 +1,18 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Time = () => {
-  useEffect(() => {}, []);
+  const [time, setTime] = useState(0);
+
+  useEffect(() => {
+    fetch("https://api.keybit.ir/time/").then((r) => {
+      // @ts-ignore
+      return setTime(r);
+    });
+
+    if (time) {
+      console.log("ok");
+    }
+  }, [time]);
   return <></>;
 };
 
