@@ -1,3 +1,5 @@
+import Container from "~/components/shared/Container";
+
 const meta = () => {
   return [{ title: "Tikrack" }, { name: "description", content: "" }];
 };
@@ -5,9 +7,7 @@ const meta = () => {
 const Index = () => {
   return (
     <>
-      <h1>hello brother</h1>
-      <h1>hello brother</h1>
-      <h1>hello brother</h1>
+      <Container></Container>
     </>
   );
 };
