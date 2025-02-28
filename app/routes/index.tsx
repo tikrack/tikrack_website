@@ -1,8 +1,5 @@
 const meta = () => {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+  return [{ title: "Tikrack" }, { name: "description", content: "" }];
 };
 
 const Index = () => {
