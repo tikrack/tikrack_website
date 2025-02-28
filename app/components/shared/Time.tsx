@@ -31,7 +31,7 @@ const Time = () => {
           setSeconds(rs.time12.second.en);
         });
       });
-    });
+    }, 1000);
 
     return () => {
       clearInterval(timeVal);
