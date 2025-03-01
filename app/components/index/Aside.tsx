@@ -9,6 +9,8 @@ const Aside = () => {
         }
       >
         <Social name={"instagram"} />
+        <Social name={"telegram"} />
+        <Social name={"github"} />
       </div>
     </>
   );
