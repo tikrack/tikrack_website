@@ -3,8 +3,12 @@ import { Link } from "react-router";
 const Main = () => {
   return (
     <>
-      <main className={"pt-[100px] w-full h-full flex justify-between"}>
-        <div className="basis-1/2">
+      <main
+        className={
+          "md:pt-[100px] py-[70px] w-full h-full flex justify-between md:flex-row md:flex-nowrap flex-wrap flex-col"
+        }
+      >
+        <div className="basis-full md:basis-1/2">
           <div className={"w-[50px] h-[50px] flex justify-center items-center"}>
             <img
               src="/images/profile.jpg"
@@ -14,27 +18,31 @@ const Main = () => {
           </div>
           <h1
             className={
-              "font-semibold leading-[65px] text-[50px] tracking-[0] mt-[20px]"
+              "font-semibold md:leading-[65px] leading-[60px] text-[40px] lg:text-[50px] tracking-[0] mt-[20px]"
             }
           >
             Hello! I'm
             <br />
             MohamadReza
-            <span className={"block text-gray-300 text-[40px] font-bold"}>
+            <span className={"block text-gray-200 text-[35px] font-bold"}>
               TikRack
             </span>
           </h1>
         </div>
-        <div className="basis-1/2">
+        <div className="basis-full md:basis-1/2">
           <h1
-            className={"font-semibold leading-[60px] text-[42px] tracking-[0]"}
+            className={
+              "font-semibold md:leading-[60px] leading-[50px] mt-10 text-[35px] xl:text-[42px] tracking-[0]"
+            }
           >
             A Front & Back Developer
             <br />
             with a World of Ideas!
           </h1>
           <blockquote
-            className={"leading-[28px] text-gray-400 mt-3 text-[17px]"}
+            className={
+              "leading-[28px] text-gray-400 mt-3 md:text-[15px] xl:text-[17px]"
+            }
           >
             Coming together is a beginning. Keeping together is progress. and
             <br />

@@ -6,7 +6,9 @@ const Container: React.FC<{
 }> = ({ children, className }) => {
   return (
     <>
-      <div className={`w-[calc(100%-200px)] mx-auto ${className}`}>
+      <div
+        className={`md:w-[calc(100%-200px)] w-[calc(100%-100px)] mx-auto ${className}`}
+      >
         {children}
       </div>
     </>

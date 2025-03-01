@@ -3,7 +3,7 @@ const Add = () => {
     <>
       <button
         className={
-          "h-[45px] w-[45px] rounded-[12px] cursor-pointer bg-black flex justify-center items-center"
+          "h-[45px]  w-[45px] rounded-[12px] cursor-pointer bg-black md:flex hidden justify-center items-center"
         }
       >
         <svg
