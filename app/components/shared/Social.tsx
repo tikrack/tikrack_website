@@ -16,7 +16,7 @@ const Social: React.FC<{ name: string }> = ({ name }) => {
     <>
       <a
         href="https://google.com"
-        className={`w-[50px] h-[50px] group hover:shadow-big transition-all duration-300 flex justify-center items-center border rounded-full border-gray-400 
+        className={`w-[50px] h-[50px] group hover:shadow-big transition-all duration-300 flex justify-center items-center border rounded-full border-gray-300 
         ${name === "instagram" && "hover:shadow-rose-600 hover:bg-rose-600"} 
         ${name === "telegram" && "hover:shadow-sky-600 hover:bg-sky-600"}`}
       >

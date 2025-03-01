@@ -9,7 +9,7 @@ const Add = () => {
         <svg
           viewBox="0 0 24 24"
           fill="none"
-          className={"w-[18px]"}
+          className={"w-[15px]"}
           xmlns="http://www.w3.org/2000/svg"
         >
           <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
