@@ -1,6 +1,10 @@
 import React from "react";
 
-const Social: React.FC<{ name: string }> = ({ name }) => {
+const Social: React.FC<{ name: string; hover?: any; closeHover?: any }> = ({
+  name,
+  closeHover,
+  hover,
+}) => {
   const icon = () => {
     switch (name) {
       case "instagram":
@@ -22,6 +26,12 @@ const Social: React.FC<{ name: string }> = ({ name }) => {
         ${name === "instagram" && "hover:shadow-rose-600 hover:border-rose-600 hover:bg-rose-600"} 
         ${name === "telegram" && "hover:shadow-sky-600 hover:border-sky-600 hover:bg-sky-600"}
         ${name === "github" && "hover:shadow-black hover:border-black hover:bg-black"}`}
+        onMouseEnter={() => {
+          hover();
+        }}
+        onMouseLeave={() => {
+          closeHover();
+        }}
       >
         {icon()}
       </a>

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f736edaa-2a92-44d3-924c-767a83708101" name="Changes" comment="" />
+    <list default="true" id="f736edaa-2a92-44d3-924c-767a83708101" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/index/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/index/Aside.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/shared/Social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/shared/Social.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/profile.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="TypeScript JSX File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -82,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740723315467</updated>
       <workItem from="1740723317952" duration="1246000" />
-      <workItem from="1740823964441" duration="12107000" />
+      <workItem from="1740823964441" duration="17640000" />
     </task>
     <servers />
   </component>

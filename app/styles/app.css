@@ -24,6 +24,7 @@
 
     @theme {
         --shadow-big: -50px 50px 400px 80px;
+        --shadow-mid: 30px 0 400px -60px;
     }
 
     * {
