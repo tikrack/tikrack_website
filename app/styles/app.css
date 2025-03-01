@@ -17,6 +17,10 @@
         src: url("/fonts/Quicksand-Bold.ttf") format("truetype");
     }
 
+    @theme {
+        --shadow-big: -100px 50px 300px 100px;
+    }
+
     * {
         user-select: none;
         font-family: 'quick-sans', sans-serif;
