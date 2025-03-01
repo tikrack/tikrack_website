@@ -5,7 +5,7 @@ const Aside = () => {
     <>
       <div
         className={
-          "fixed top-[60px] right-[28px] flex flex-col gap-[15px] w-[50px]"
+          "fixed top-[100px] right-[28px] flex flex-col gap-[15px] w-[50px]"
         }
       >
         <Social name={"instagram"} />
