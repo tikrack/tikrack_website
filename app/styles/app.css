@@ -18,7 +18,7 @@
     }
 
     @theme {
-        --shadow-big: -100px 50px 300px 100px;
+        --shadow-big: -50px 50px 400px 80px;
     }
 
     * {
