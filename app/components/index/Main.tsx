@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Main = () => {
   return (
     <>
@@ -43,6 +45,24 @@ const Main = () => {
               Henry Ford
             </span>
           </blockquote>
+          <div className="flex justify-start items-start gap-[20px] mt-[35px]">
+            <Link
+              to={"/"}
+              className={
+                "rounded-[12px] block h-[45px] w-[140px] bg-black flex justify-center items-center text-white"
+              }
+            >
+              Talk with me
+            </Link>
+            <Link
+              to={"/"}
+              className={
+                "rounded-[12px] block h-[45px] w-[140px] bg-white flex justify-center border-2 border-gray-200 items-center text-black"
+              }
+            >
+              See my work
+            </Link>
+          </div>
         </div>
       </main>
     </>
